@@ -7,11 +7,11 @@ import Pricing from "../components/Pricing" ;
 import Footer from "../components/Footer" ;
 
 
-const project = () => {
+const service = () => {
   return (
     <div>
       <NavBar/>
-      <Hero2 heading="Project" text="some of my recent works" />
+      <Hero2 heading="Services" text="our services and financial plans are listed below." />
       <Work/>
       <Pricing/>
       <Footer/>
@@ -19,4 +19,4 @@ const project = () => {
   )
 }
 
-export default project
+export default service

@@ -2,7 +2,7 @@ import "./HeroStyle.css";
 import React from 'react' ;
 import { Link } from "react-router-dom" ;
 
-import Introimg from "../assets/images.jpg" ;
+import Introimg from "../assets/images (1).jpg" ;
 
 
 
@@ -18,7 +18,7 @@ function Hero() {
                 <p>We provide business/investment consultation services</p>
                 <h1>-------</h1>
                 <div>
-                    <Link to="/project" className="btn">Project</Link>
+                    <Link to="/project" className="btn">Services</Link>
                     <Link to="/contact" className="btn btn-light">Contact</Link>
                 </div>
             </div>

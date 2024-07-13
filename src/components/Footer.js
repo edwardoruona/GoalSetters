@@ -27,7 +27,7 @@ const Footer = () => {
             </div>
             <div className="right">
                 <h4>About The Company</h4>
-                <p>location ujsdufhhqhiio ruihfhfbru uiwhuhdjdf cywfbj udghjood udbfndhdn udunkjid dndihi </p>
+                <p>Goal Setters is a financial institution that is poised to providing you with the best business, investment and wealth creation services.</p>
                 <div className="socials">
                     <FaFacebook size={30} style={{color: "#fff", marginRight:"1rem"}}/>
                     <FaTwitter size={30} style={{color: "#fff", marginRight:"1rem"}}/>
