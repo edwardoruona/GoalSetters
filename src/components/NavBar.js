@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom" ;
 import "./NavBarStyle.css" ;
+import React3 from "../assets/image_ico.PNG";
 
 import React, { useState } from 'react' ;
 import { FaBars, FaTimes } from "react-icons/fa";
@@ -23,9 +24,12 @@ function NavBar() {
 
     return (
         <div className ={color ? "header header-bg" : "header"} >
+           <div className="logo">
+            <img src={React3} className="img" alt="react image" />
             <Link to="/">
-            <h1>Goal Setters</h1>
+            <h2>SmartWealthInstitute</h2>
             </Link>
+           </div>
             <ul className={click ? "nav-menu active" : "nav-menu"}>
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/Project">Services</Link></li>

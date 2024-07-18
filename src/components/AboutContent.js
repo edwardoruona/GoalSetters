@@ -3,6 +3,7 @@ import {Link} from "react-router-dom";
 import React1 from "../assets/image(11).jpg"
 import React2 from "../assets/image(10).jpg"
 
+
 import React from 'react'
 
 const AboutContent = () => {

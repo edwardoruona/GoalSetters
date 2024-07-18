@@ -13,6 +13,7 @@ body{
 
 h1, h4, p, a{
   /* color: white; */
+  /* color: rgba(255, 255, 0, 0.5); */
   color: rgb(255, 255, 0);
   text-decoration: none;
 }
@@ -25,7 +26,8 @@ ul{
   padding: 12px 32px;
   font-size: 1rem;
   text-transform: uppercase;
-  background: yellow;
+  /* background: yellow; */
+  background: rgba(255, 255, 0, 0.5);
   color: black;
   border: 1px solid white;
   font-weight: 600;

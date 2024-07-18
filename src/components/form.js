@@ -1,20 +1,21 @@
-import { PiPlaceholder } from "react-icons/pi"
-import "./FormStyle.css"
+// import { PiPlaceholder } from "react-icons/pi";
 
-import React from 'react'
+import "./FormStyle.css" ;
+
+import React from 'react' ;
 
 const form = () => {
   return (
     <div className="form">
-        <form>
+        <form action="https://formspree.io/f/mjkbkdby" method="POST">
             <label>Your Name</label>
-            <input type="text"></input>
+            <input name="name" type="text"></input>
             <label>Email</label>
-            <input type="email"></input>
+            <input name="email" type="email"></input>
             <label>Subject</label>
-            <input type="text"></input>
+            <input name="subject" type="text"></input>
             <label>Message</label>
-            <textarea rows="6" placeholder="Type your message here" />
+            <textarea name="message" rows="6" placeholder="Type your message here" />
             <button className="btn">Submit</button>
         </form>
     </div>
