@@ -3,7 +3,7 @@ import NavBar from "../components/NavBar" ;
 import Hero from "../components/Hero" ;
 import Work from "../components/Work";
 import AboutContent from "../components/AboutContent";
-import Pricing from "../components/Pricing";
+import Form from "../components/form";
 import Footer from "../components/Footer" ;
 
 const home = () => {
@@ -13,7 +13,7 @@ const home = () => {
       <Hero />
       <Work/>
       <AboutContent/>
-      <Pricing/>
+      <Form/>
       <Footer/>
     </div>
     

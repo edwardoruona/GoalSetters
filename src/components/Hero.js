@@ -15,7 +15,7 @@ function Hero() {
                 <img className="into-img" src={Introimg} alt="introimage" />
             </div>
             <div className="content">
-                <p>We provide business/investment consultation services</p>
+                <p>Optimize Your Finances: Transformative Courses, Expert Training, and Empowering Resources</p>
                 <h1>-------</h1>
                 <div>
                     <Link to="/project" className="btn">Services</Link>

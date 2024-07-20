@@ -10,19 +10,19 @@ const Footer = () => {
         <div className="footer-container">
             <div className="left">
                 <div className="location">
-                    <FaHome size={20} style={{color:"#fff", marginRight:"2rem"}}/>
+                    {/* <FaHome size={20} style={{color:"#fff", marginRight:"2rem"}}/> */}
                 <div>
-                <p>123 Housing Society</p>
-                <p>Banglandish</p>
+                {/* <p>123 Housing Society</p>
+                <p>Banglandish</p> */}
                 </div>
                 </div>
                 <div className="phone">
                 <h4><FaPhone size={20} style={{color:"#fff", marginRight:"2rem"}}/>
-                +124123456789</h4>
+                +2349036023616</h4>
                 </div>
                 <div className="email">
                 <h4><FaMailBulk size={20} style={{color:"#fff", marginRight:"2rem"}}/>
-                info@gmail.com</h4>
+                info@smartwealthinitiative.com</h4>
                 </div>
             </div>
             <div className="right">

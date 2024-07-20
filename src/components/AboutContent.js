@@ -11,7 +11,7 @@ const AboutContent = () => {
     <div className="about">
         <div className="left">
             <h1>Who We Are</h1>
-            <p>Goal Setters is a financial institution that is poised to providing you with the best business, investment and wealth creation services. </p>
+            <p>Welcome to our platform! We specialize in a range of services tailored to elevate personal and business performance. From expert investment consultancy to personalized business coaching, we're here to guide you towards success. Dive into our courses, ebooks, and educational materials to enhance your marketing strategies. Join us for seminars on various topics like business, investments, passive income, and personal development. Let's embark on this journey together towards growth and financial freedom . </p>
             <Link to="/contact">
             <button className="btn">Contact</button>
             </Link>

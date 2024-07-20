@@ -7,6 +7,7 @@ import React from 'react' ;
 const form = () => {
   return (
     <div className="form">
+      <h1>Send Us A Message</h1>
         <form action="https://formspree.io/f/mjkbkdby" method="POST">
             <label>Your Name</label>
             <input name="name" type="text"></input>
